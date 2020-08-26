@@ -17,6 +17,14 @@
       ],
       "presets": [
         {
+          "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        },
+        {
           "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
@@ -44,6 +52,14 @@
         }
       ],
       "presets": [
+        {
+          "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        },
         {
           "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
@@ -73,6 +89,14 @@
       ],
       "presets": [
         {
+          "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        },
+        {
           "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
@@ -100,6 +124,14 @@
         }
       ],
       "presets": [
+        {
+          "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        },
         {
           "name": "/home/mauro/Escritorio/React/react-gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {

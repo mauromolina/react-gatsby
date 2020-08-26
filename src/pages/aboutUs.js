@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import AboutUsContent from '../components/aboutUsContent';
 
 const AboutUs = () => (
   <Layout>
-    <h1>Sobre Nosotros</h1>
+    <AboutUsContent/>
   </Layout>
 )
 

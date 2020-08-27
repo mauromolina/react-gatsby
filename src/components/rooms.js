@@ -2,9 +2,9 @@ import React from 'react';
 import Layout from "../components/layout"
 import Image from 'gatsby-image';
 import { css } from '@emotion/core';
-import { grahpql} from 'gatsby';
+import { graphql } from 'gatsby';
 
-export const query = graphql`
+export const query = graphql `
     query($slug:String!) {
         allDatoCmsRoom (filter: { slug: {eq: $slug } }) {
         nodes {

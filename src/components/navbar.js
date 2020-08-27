@@ -22,13 +22,17 @@ const NavLink = styled(Link)`
     padding: 1rem;
     margin-right: 1rem;
 
+    &:hover {
+        border-bottom: 2px solid #fff;
+    }
+
     &:last-of-type {
         margin-right: 0
     }
 
     &.actual {
         border-bottom: 2px solid #fff;
-    }
+    } 
 `;
 
 const Navbar = () => {

@@ -45,7 +45,6 @@ const HotelImage = () => {
       }
     }
     `);
-    console.log(image);
 
     return ( 
         <ImgBackground tag="section" fluid={image.sharp.fluid} fadeIn="soft">

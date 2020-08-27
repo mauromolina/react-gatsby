@@ -1,6 +1,14 @@
 import React from 'react';
 import { css } from '@emotion/core';
+import styled from '@emotion/styled';
 import Navbar from './navbar';
+import { Link } from 'gatsby'
+
+const HomeLink = styled(Link)`
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+`;
 
 const Header = () => {
     return ( 
@@ -20,13 +28,11 @@ const Header = () => {
                         justify-content: space-between
                     }
                 `}>
-                    <h1
-                        css={ css`
-                            color: #fff;
-                            text-align: center;
-                        `}>
+                    <HomeLink to='/'>
+                        <h1>
                             MM Hotel
-                    </h1>
+                        </h1>
+                    </HomeLink>
                 <Navbar/>
             </div>
         </header>

@@ -11,7 +11,12 @@ const Layout = (props) => {
 
                     html {
                         font-size: 62.5%;
+                        box-sizing: border-box;
                     }
+
+                    *, *:before, *:after {
+                        box-sizing: inherit;
+                    } 
 
                     body {
                         font-size: 18px;
@@ -38,12 +43,16 @@ const Layout = (props) => {
                         margin: 0;
                         padding: 0;
                     }
+
+                    p {
+                        font-weight: 200;
+                    }
                 `}
             />
             <Helmet>
                 <title>MM Hotel</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-                <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&family=Roboto:wght@700&display=swap" rel="stylesheet"/>
             </Helmet>
             <Header/>
             {props.children}

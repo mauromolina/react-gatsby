@@ -20,6 +20,15 @@ const useRoomQuery = () => {
         }
     `)
 
+    return data.allDatoCmsRoom.nodes.map( room => ({
+        title: room.title,
+        id: room.id,
+        description: room.description,
+        slug: room.slug,
+        image: room.image,
+
+    }))
+
 }
  
 export default useRoomQuery;

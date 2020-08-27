@@ -22,10 +22,18 @@ const RoomPreview = ({room}) => {
     const {title, description, image, slug} = room
 
     return ( 
-        <div
+        <Link to={slug}
             css={ css`
                 border: 1px solid #e1e1e1;
                 margin-bottom: 2rem;
+                transition: 0.6s;
+                text-decoration: none;
+                color: #000;
+
+                &:hover {
+                    transform: scale(1.06);
+                    cursor: pointer;
+                }
             `}>
             <Image
                 fluid={image.fluid}
@@ -45,7 +53,7 @@ const RoomPreview = ({room}) => {
                 </p>
                 <Button to={slug}>Ver Habitación</Button>
             </div>
-        </div>
+        </Link>
      );
 }
  
